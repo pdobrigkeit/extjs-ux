@@ -41,6 +41,9 @@ Ext.define('Ext.ux.container.ButtonSegment', {
     
     onBeforeAdd: function(component)
     {
-        
+        if (component.isButton) {
+            component.ui = component.ui + '-toolbar';
+            component.cls = 'x-toolbar-item';
+        }	        
     }
 });
