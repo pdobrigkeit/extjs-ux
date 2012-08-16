@@ -1,0 +1,9 @@
+{
+    "name" : "goalio/extjs-ux",
+	"version" : "4.1.1",
+	
+    "require": {
+        "php": ">=5.3.3",
+		"sencha/extjs" : ">=4.1.1"
+    }
+}
