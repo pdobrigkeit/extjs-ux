@@ -15,6 +15,7 @@ Ext.define('Ext.ux.upload.Button', {
     {
         var me = this;
         config = config || {};
+        config.id = config.id || Ext.id(me);
         Ext.applyIf(config.uploader, {
             browse_button: config.id || Ext.id(me)
         });
